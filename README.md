@@ -8,9 +8,9 @@ O projeto 3DougArte é uma plataforma que combina impressão 3D, corte a laser c
 
 ## Tecnologias Utilizadas
 
-- Impressão 3D
-- Corte a Laser com Diodo
-- Arte em Madeira
+- HTML
+- CSS
+- Javascript
 
 ## Recursos Principais
 
