@@ -37,6 +37,7 @@ header h1 {
 
 p {
     margin-bottom: 20px;
+    font-size: 20px;
 }
 
 .button {
@@ -48,6 +49,7 @@ p {
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    font-size: 20px;
 }
 
 .button:hover {
@@ -63,6 +65,7 @@ footer {
 footer .button {
     display: block;
     margin: 0 auto;
+    
 }
 
 /* Estilos específicos para o botão "Leia Mais" */
