@@ -1,0 +1,89 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    background-color: #5fa8d2;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.title {
+    font-size: 24px;
+    color: white;
+}
+
+/* Estilos da lista de contatos */
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-item {
+    margin: 10px 0;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.contact-link:hover {
+    background-color: #f0f0f0;
+}
+
+.contact-label {
+    flex-grow: 1;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.contact-icon {
+    width: 24px;
+    height: 24px;
+}
+
+/* Estilos do rodapé */
+.footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button {
+    background-color: #5fa8d2;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.back-link {
+    text-decoration: none;
+    color: white;
+}
+
+.back-text {
+    font-size: 16px;
+}

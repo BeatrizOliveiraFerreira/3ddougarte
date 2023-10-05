@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #5fa8d2;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para o botão "Entre em Contato Conosco" */
+.contact-button {
+    background-color: #5fa8d2;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #3c7aaf;
+    text-decoration: none;
+}
+
+.contact-button h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.contact-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact-button a:hover {
+    text-decoration: none;
+}
+
+
+.contact {
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+    background-color: #5fa8d2;
+}
+
+.contact h2 {
+    margin: 0;
+    font-size: 28px;
+}
+
+.back-to-top {
+    display: inline-block;
+    background-color: #5fa8d2;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: #daeefe;
+    color: blue;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 20px;
+    }
+}
