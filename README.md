@@ -1,4 +1,4 @@
-# site: https://beatrizoliveiraferreira.github.io/3ddougarte/
+# site: https://3dougarte.netlify.app/
 
 # 3DougArte
 
